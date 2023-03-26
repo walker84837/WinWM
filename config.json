@@ -1,0 +1,23 @@
+{
+	"key_binds": {
+		"XF86AudioLowerVolume": "amixer -D pulse sset Master 5%-",
+		"XF86AudioRaiseVolume": "amixer -D pulse sset Master 5%+",
+		"XF86AudioMute": "amixer -D pulse sset Master toggle",
+		"XF86MonBrightnessUp": "xbacklight -inc 10",
+		"XF86MonBrightnessDown": "xbacklight -dec 10",
+		"XF86AudioPlay": "playerctl play-pause",
+		"XF86AudioPrev": "playerctl previous",
+		"XF86AudioNext": "playerctl next",
+		"Control_L+Return": "gnome-terminal",
+		"Control_L+Shift_L+Q": "i3-msg exit"
+	},
+	"mouse_button": 1,
+	"mouse_modifiers": 1,
+	"move_step": 10,
+	"resize_step": 10,
+	"terminal": "xfce4-terminal",
+	"hotkey": 65293,
+	"border_width": 3,
+	"border_color": "#000000"
+}
+
