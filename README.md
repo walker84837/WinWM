@@ -1,6 +1,6 @@
 # WinWM
 
-WinWM is a window manager based on TinyWM written in C++ that is inspired by the i3 window manager. It is a more feature-rich version of TinyWM and allows for moving, resizing, focusing, and raising windows. Additionally, WinWM can be configured via configuration files.
+WinWM is a window manager based on TinyWM written in C++ that is inspired by the i3 window manager. It is a more feature-rich version of TinyWM and allows for moving, resizing, focusing, and raising windows. Additionally, WinWM can be configured via configuration files. I'm not planning on mantaining this, as this has extremely bad code that throws a segmentation fault when compiled and executed.
 
 ## Files
 
